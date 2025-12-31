@@ -36,3 +36,22 @@ python app.py lock -f requirements.txt --format json
 python app.py lock -f requirements.txt --format yaml
 python app.py lock -f requirements.txt --format toml
 python app.py diff -f requirements.txt
+
+
+
+pip install -e .
+
+# ১. Version চেক করুন
+reqsnap --version
+
+# ২. Help দেখুন
+reqsnap --help
+
+# ৩. Lock command টেস্ট করুন
+reqsnap lock -f requirements.txt
+
+# ৪. Check command টেস্ট করুন
+reqsnap check -f requirements.txt
+
+# ৫. Validate command টেস্ট করুন
+reqsnap validate -f requirements.txt

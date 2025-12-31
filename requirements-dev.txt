@@ -3,3 +3,5 @@ pytest>=6.0
 black>=21.0
 flake8>=3.9
 mypy>=0.910
+
+## reqsnap lock -f requirements-dev.txt  reqsnap check -f requirements-dev.txt
