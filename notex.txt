@@ -1,0 +1,38 @@
+Project: Pipy Snapshot
+Version: 0.1.0
+Author: Ahmed2797
+
+Description:
+A Python package for generating requirements lock files with multiple formats.
+
+Features:
+1. Generate lock files from requirements.txt
+2. Multiple output formats (JSON, YAML, TOML, traditional)
+3. Simple CLI interface
+4. Package validation
+
+Usage:
+$ pip install pipy-snapshot
+$ pipy lock -f requirements.txt --format json
+$ pipy check -f requirements.txt
+
+Project Structure:
+- pipy/ : Main package
+- app.py : Application entry point
+- setup.py : Package setup
+- requirements.txt : Dependencies
+
+To Build:
+$ python -m build
+$ twine upload dist/*
+
+To Install Locally:
+$ pip install -e .
+
+---------------------------------
+python app.py check -f requirements.txt
+python app.py validate -f requirements.txt
+python app.py lock -f requirements.txt --format json
+python app.py lock -f requirements.txt --format yaml
+python app.py lock -f requirements.txt --format toml
+python app.py diff -f requirements.txt

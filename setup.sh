@@ -1,18 +1,18 @@
 #!/bin/bash
 
 # Create main folders
-mkdir -p pipy
-mkdir -p pipy/logger
-mkdir -p pipy/exception
-mkdir -p pipy/utils
+mkdir -p reqsnap
+mkdir -p reqsnap/logger
+mkdir -p reqsnap/exception
+mkdir -p reqsnap/utils
 
 # # Create __init__.py in each folder
-touch pipy/__init__.py
-touch pipy/core.py
-touch pipy/cli.py
-touch pipy/logger/__init__.py
-touch pipy/exception/__init__.py
-touch pipy/utils/__init__.py
+touch reqsnap/__init__.py
+touch reqsnap/core.py
+touch reqsnap/cli.py
+touch reqsnap/logger/__init__.py
+touch reqsnap/exception/__init__.py
+touch reqsnap/utils/__init__.py
 
 # Create main files
 touch app.py

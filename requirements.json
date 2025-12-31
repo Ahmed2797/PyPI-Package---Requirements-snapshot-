@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "generated": "2025-12-31T14:27:32.047820",
+    "python_version": "3.8.20",
+    "platform": "linux",
+    "requirements_file": "requirements.txt",
+    "tool": "ReqSnap v1.0.0"
+  },
+  "packages": {
+    "importlib-metadata": {
+      "name": "importlib-metadata",
+      "original_spec": "importlib-metadata>=4.0.0",
+      "locked_version": "8.5.0",
+      "installed": true,
+      "status": "installed"
+    },
+    "pyyaml": {
+      "name": "pyyaml",
+      "original_spec": "pyyaml>=6.0",
+      "locked_version": "6.0.3",
+      "installed": true,
+      "status": "installed"
+    },
+    "toml": {
+      "name": "toml",
+      "original_spec": "toml>=0.10.0",
+      "locked_version": "0.10.2",
+      "installed": true,
+      "status": "installed"
+    },
+    "packaging": {
+      "name": "packaging",
+      "original_spec": "packaging>=21.0",
+      "locked_version": "25.0",
+      "installed": true,
+      "status": "installed"
+    }
+  },
+  "summary": {
+    "total_packages": 4,
+    "installed": 4,
+    "not_installed": 0,
+    "lock_format": "json"
+  }
+}

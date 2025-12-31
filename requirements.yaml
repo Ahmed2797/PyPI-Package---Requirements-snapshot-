@@ -1,0 +1,36 @@
+metadata:
+  generated: '2025-12-31T14:27:58.367032'
+  platform: linux
+  python_version: 3.8.20
+  requirements_file: requirements.txt
+  tool: ReqSnap v1.0.0
+packages:
+  importlib-metadata:
+    installed: true
+    locked_version: 8.5.0
+    name: importlib-metadata
+    original_spec: importlib-metadata>=4.0.0
+    status: installed
+  packaging:
+    installed: true
+    locked_version: '25.0'
+    name: packaging
+    original_spec: packaging>=21.0
+    status: installed
+  pyyaml:
+    installed: true
+    locked_version: 6.0.3
+    name: pyyaml
+    original_spec: pyyaml>=6.0
+    status: installed
+  toml:
+    installed: true
+    locked_version: 0.10.2
+    name: toml
+    original_spec: toml>=0.10.0
+    status: installed
+summary:
+  installed: 4
+  lock_format: yaml
+  not_installed: 0
+  total_packages: 4
