@@ -55,3 +55,47 @@ reqsnap check -f requirements.txt
 
 # ৫. Validate command টেস্ট করুন
 reqsnap validate -f requirements.txt
+
+
+# README.md আপডেট করুন
+
+## 🚀 Installation
+
+```bash
+pip install reqsnap
+
+# Generate requirements.lock from requirements.txt
+reqsnap lock
+
+# Use different requirements file
+reqsnap lock --file requirements-dev.txt
+
+# Output in different formats
+reqsnap lock --format json
+reqsnap lock --format yaml
+reqsnap lock --format toml
+
+
+
+## **এখন পাবলিশ করুন!**
+
+```bash
+echo "🎯 Ready to publish to PyPI!"
+echo ""
+echo "Step 1: TestPyPI (for testing)"
+echo "------------------------------"
+echo "twine upload --repository testpypi dist/*"
+echo ""
+echo "Step 2: Test installation from TestPyPI"
+echo "--------------------------------------"
+echo "# In new terminal:"
+echo "pip install --index-url https://test.pypi.org/simple/ reqsnap"
+echo ""
+echo "Step 3: Real PyPI"
+echo "-----------------"
+echo "twine upload dist/*"
+echo ""
+echo "Step 4: Verify"
+echo "-------------"
+echo "pip install reqsnap"
+echo "reqsnap --version"
