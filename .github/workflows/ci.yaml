@@ -34,4 +34,10 @@ jobs:
       run: tox
     - name: Test CLI
       run: |
-        reqsnap --version
+        # Method 1: Use python -m (most reliable)
+        python -m reqsnap.cli --version
+        
+        # Method 2: Create a test requirements file and test lock
+        echo "requests" > test_requirements.txt
+        python -m reqsnap.cli lock -f test_requirements.txt --format lock
+        rm -f test_requirements.txt requirements.lock
